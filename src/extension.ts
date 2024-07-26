@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
         enableScripts: true, // Allow JavaScript in the webview.
       } // Webview options. More on these later.
     );
-    const appUrl = 'http://localhost:5173';
+    const appUrl = 'https://visual-file.liren.zty012.de';
     panel.webview.html = `<!DOCTYPE html>
 <html lang="en">
   <head>
